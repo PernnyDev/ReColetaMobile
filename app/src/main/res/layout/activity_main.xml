@@ -87,14 +87,13 @@
         app:toggleCheckedStateOnClick="true" />
 
     <Button
-        android:id="@+id/buttonEsqueciSenha"
+        android:id="@+id/buttonCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="25dp"
-        android:shadowColor="#1B1919"
-        android:text="Esqueci minha senha"
+        android:text="Ainda não possui cadastro?"
         android:textColorLink="@android:color/holo_green_light"
         app:iconTint="#4CAF50"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,15 +103,15 @@
         app:toggleCheckedStateOnClick="true" />
 
     <TextView
-        android:id="@+id/textViewCadastro"
+        android:id="@+id/textViewEsqueciSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="25dp"
-        android:text="Ainda não possui cadastro?"
+        android:text="Esqueci minha senha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonEsqueciSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCadastro" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
