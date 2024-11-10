@@ -177,6 +177,7 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="25dp"
                 android:layout_marginBottom="38dp"
+                android:backgroundTint="#4BD609"
                 android:text="Atualizar"
                 android:textColorLink="@android:color/holo_green_light"
                 app:iconTint="#4CAF50"
